@@ -2,7 +2,9 @@
 <div align="center">
   <img src="https://count.getloli.com/get/@swrneko-whisper-webui?theme=rule34"/>
 </div>
+
 ---
+
 ## Installation
 1. clone repository:
 
