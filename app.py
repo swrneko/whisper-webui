@@ -21,6 +21,13 @@ def saveFile(filename, text):
 
 # Запуск 
 with gr.Blocks() as demo:
+    gr.HTML('''
+    <div align='center'>
+        <h1>
+            OpenAI Whisper WebUI by <a href='https://github.com/swrneko/whisper-webui'>swrneko</>
+        </h1>
+    </div>
+    ''')
     # Создаю ряд
     with gr.Row():
         # Создаю колонку

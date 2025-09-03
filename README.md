@@ -5,7 +5,22 @@
 
 ---
 
-## Uses [openai whisper](https://github.com/openai/whisper) for text recognize and [gradio ui](https://github.com/gradio-app/gradio) for ui.
+Uses [openai whisper](https://github.com/openai/whisper) for text recognize and [gradio ui](https://github.com/gradio-app/gradio) for ui.
+
+---
+
+## Requirements:
+- python 3.10 or above;
+- gradio
+- openai-whisper
+
+---
+
+## Screenshots:
+
+<div>
+  <img src="src/preview.png">
+</div>
 
 ---
 
