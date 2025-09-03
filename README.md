@@ -5,6 +5,10 @@
 
 ---
 
+## Uses (openai whisper)[https://github.com/openai/whisper] for text recognize and (gradio ui)[https://github.com/gradio-app/gradio] for ui.
+
+---
+
 ## Installation
 1. clone repository:
 
@@ -30,3 +34,4 @@ cd whisper-webui
 ```shell
 python app.py
 ```
+
