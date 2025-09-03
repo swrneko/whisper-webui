@@ -11,8 +11,8 @@ Uses [openai whisper](https://github.com/openai/whisper) for text recognize and 
 
 ## Requirements:
 - python 3.10 or above;
-- gradio
-- openai-whisper
+- gradio;
+- openai-whisper;
 
 ---
 
