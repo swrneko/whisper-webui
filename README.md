@@ -38,6 +38,8 @@ cd whisper-webui
   conda create -n whisper-webui-by-swrneko python=3.10  
   conda activate whisper-webui-by-swrneko
   ```
+  
+  or
 
   - with pyenv: 
   ```shell
