@@ -11,7 +11,14 @@ wisperModels = ['tiny', 'base', 'small', 'medium', 'large', 'turbo']
 def recognize(model, audioFile):
     model = whisper.load_model(model)
     outputText = model.transcribe(audioFile)
-    return outputText['text']
+
+    text = ''
+
+    for segment in outputText['segments']:
+        text += f'[{segment["start"]:.2f}] - [{segment["end"]:.2f}] {segment["text"]}\n'
+
+    return text
+
 
 def saveFile(filename, text):
     directory = Path(OUTPUT_PATH)
