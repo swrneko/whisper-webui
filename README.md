@@ -48,9 +48,9 @@ cd whisper-webui
  ```
 
 3. Install requirements:
-   ```shell
-   pip install -r requirements.txt
-   ```
+```shell
+pip install -r requirements.txt
+```
 
 4. run app:
 ```shell
