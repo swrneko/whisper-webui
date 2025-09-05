@@ -45,9 +45,14 @@ cd whisper-webui
   ```shell
   python -m venv .venv
   source .venv/bin/activate
-  ```
+ ```
 
-3. run app:
+3. Install requirements:
+   ```shell
+   pip install -r requirements.txt
+   ```
+
+4. run app:
 ```shell
 python app.py
 ```
